@@ -1,0 +1,35 @@
+# This file explains what I have learned by exploring the open-sourced git repository by KAL
+
+1. Download requirements
+
+2. Build the app
+
+3. Unit test
+
+4. Study the message models in Core folder
+
+Core — learn the message model
+Read these in order; they're small and define the whole vocabulary:
+
+Framework/Core/MessageBase.cs, Message.cs, MessageCollection.cs
+Framework/Core/Command.cs + CommandAttribute.cs
+Framework/Core/Completion.cs + CompletionAttribute.cs
+Framework/Core/Events.cs + EventAttribute.cs
+Framework/Core/Acknowledge.cs
+Framework/Core/MessageDecoder.cs / IMessageDecoder.cs
+Framework/Core/ErrorHandling.cs, Exceptions.cs
+Framework/Core/XFSConstants.cs, XFS4VersionAttribute.cs
+Then glance inside one device namespace — e.g. Framework/Core/CardReader/ — to see how a real device's commands/events/completions are declared.
+
+5. Server — learn the runtime
+Read in this order:
+
+Framework/Server/IServiceProvider.cs, ServiceProvider.cs
+Framework/Server/ClientConnection.cs + IClientConnection.cs (the WebSocket endpoint)
+Framework/Server/EndPoint.cs, EndpointDetails.cs
+Framework/Server/CommandDispatcher.cs + ICommandDispatcher.cs
+Framework/Server/ICommandHandler.cs, CommandHandlerAttribute.cs, CommandHandlerAsyncAttribute.cs
+Framework/Server/CommandQueue.cs, CancelHandler.cs, CancellationSource.cs
+Framework/Server/ServicePublisher.cs
+Framework/Server/IDevice.cs, IPersistentData.cs, IServiceConfiguration.cs
+After this you should be able to describe the flow: client WebSocket → ClientConnection → decoded Command → CommandDispatcher → matching ICommandHandler → Completion + Events back to the client.
