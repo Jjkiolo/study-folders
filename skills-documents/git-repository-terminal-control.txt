@@ -1,0 +1,20 @@
+# This document explains how to control git repos by writing commands on 
+terminal
+
+# How to create a git repo
+1. Redirect to the inside of a project folder e.g. cd my-project
+2. Create .git folder by writing "git init"
+3. Add a REAME.md file by writing something like "echo '# My Project'
+ > README.md" or by using nano alternatively.
+4. Stage/save all changes in the current directory by writing "git add ."
+5. commit by writing "git commit -m "inital commit""
+
+# How to clone a git repo
+1. 
+
+# How to make a branch on git repository
+
+# How to make a pull request in git repository
+
+# How to make it ignore the virtual environments
+
