@@ -8,13 +8,37 @@ terminal
  > README.md" or by using nano alternatively.
 4. Stage/save all changes in the current directory by writing "git add ."
 5. commit by writing "git commit -m "inital commit""
+6. when everything is set, go "gh repo create --public --source=.
+--remote=origin --push"
 
-# How to clone a git repo
-1. 
+# How to set a git repo to private
+gh repo edit --visibility private --accept-visibility-change-consequences
+
+# How to clone a git brnach 
+1. git clone https://github.com/username/repo-name.git my-custom-name
 
 # How to make a branch on git repository
+1. git checkout -b new-branch-name
+2. 
+ git checkout main       # switch to main
+ git pull                # get the latest changes from GitHub
+ git checkout -b new-branch-name
 
-# How to make a pull request in git repository
+# How to make a pull request in git
+1. gh pr create
+2. gh pr create --title "Add new section" --body "Describe changes here"
+
+# How to accept pull requests
+
+1. gh pr view
+2. gh pr merge
+3.
+git checkout main
+git pull                                      # get the merged changes
+git branch -d feature/add-new-section         # delete local branch
+git push origin --delete feature/add-new-section  # delete remote branch
 
 # How to make it ignore the virtual environments
 
+# How to change 
+git checkout -b feature/add-new-section
