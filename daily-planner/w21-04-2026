@@ -10,9 +10,45 @@
 
 Sub-plan for the client meeting preparation
 
-- Finish 3 userflows
-- Development environment set up instruction
-- Development research/actiion plan
-- KAL project message class exploration
-- software architecture assignment look-through
-- Frontend development for the computing consultancy
+- Finish 1 userflow (done)
+- Development environment set up instruction (not done)
+- Development research/actiion plan (not done)
+- KAL project message class exploration (somewhat)
+- software architecture assignment look-through (not done)
+- Frontend development for the computing consultancy (in progress)
+
+23/04/2026
+
+GHRI 
+- CI/CD documenting
+
+Uni work
+  Computing consultancy
+  - Backend environment candidate test
+  - Backend review
+  - Jenkins server ready
+  - Literature review structure
+  
+  Software architecture
+  - UML review
+
+  AR/VR
+  - Interaction creation
+  - Object replacement
+
+CS school
+- Platform design
+
+Personal project
+  Interview prep
+  - KAL project message instance review and build from scratch practice
+
+  Personal growth
+  - STM32 terminal base development environment setup
+
+--Order of priority--
+1. Consultancy hi-fi prototype final touch
+2. CI/CD documenting
+3. Platform design
+4. Backend candidate test
+5. KAL project message instance review
