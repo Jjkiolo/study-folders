@@ -47,8 +47,12 @@ Personal project
   - STM32 terminal base development environment setup
 
 --Order of priority--
-1. Consultancy hi-fi prototype final touch
-2. CI/CD documenting
+1. Consultancy hi-fi prototype final touch (done)
+2. CI/CD document
 3. Platform design
 4. Backend candidate test
 5. KAL project message instance review
+6. VR/AR object library build
+
+24/04/04
+1. AR/VR asset library import/build
