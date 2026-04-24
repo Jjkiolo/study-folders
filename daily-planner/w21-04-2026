@@ -49,10 +49,15 @@ Personal project
 --Order of priority--
 1. Consultancy hi-fi prototype final touch (done)
 2. CI/CD document
-3. Platform design
+3. Project platform design
 4. Backend candidate test
 5. KAL project message instance review
-6. VR/AR object library build
 
 24/04/04
-1. AR/VR asset library import/build
+1. Check the Jenkins code base that runs the docker image
+2. Check the Jenkins server and the app deployment server's status 
+3. Prepare the backend stack
+4. Confirm the literature review topic
+5. Project platform charter
+6. AR/VR asset library import/build
+
