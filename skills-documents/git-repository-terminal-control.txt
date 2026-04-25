@@ -1,5 +1,29 @@
-# This document explains how to control git repos by writing commands on 
-terminal
+# This document explains how to control git repos by writing commands on terminal
+
+# How to set up an account
+1. git config --global user.name "Your name"
+2. git config --global user.email "your@email.com"
+
+# How to set up SSH authentication
+1. Generate an SSH key: ssh-keygen -t ed25519 -C "your@email.com"
+2. Set a passphrase
+3. Start the SSH agent: eval "$(ssh-agent -s)"
+4. Add your key: ssh-add ~/.ssh/id_ed25519
+5. Copy your public key: cat ~/.ssh/id_ed25519.pub
+6. Add it to GitHub: 
+	1. Go to github.com → Settings → SSH and GPG keys → New SSH key
+	2. Paste the key and save
+7. Test the connection: ssh -T git@github.com
+
+# How to set default branch and editor
+1. git config --global init.defaultBranch main
+2. git config --global core.editor nano   # or vim, code, etc.
+
+# how to store credentials via git credential manager
+git config --global credential.helper manager
+
+# How to verify your config at any time
+1. git config --list
 
 # How to create a git repo
 1. Redirect to the inside of a project folder e.g. cd my-project
