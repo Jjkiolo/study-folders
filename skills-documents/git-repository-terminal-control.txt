@@ -43,10 +43,9 @@ gh repo edit --visibility private --accept-visibility-change-consequences
 
 # How to make a branch on git repository
 1. git checkout -b new-branch-name
-2. 
- git checkout main       # switch to main
- git pull                # get the latest changes from GitHub
- git checkout -b new-branch-name
+2. git checkout main       # switch to main
+3. git pull                # get the latest changes from GitHub
+4. git checkout new-branch-name # switch to the new repository
 
 # How to make a pull request in git
 1. gh pr create
@@ -56,11 +55,10 @@ gh repo edit --visibility private --accept-visibility-change-consequences
 
 1. gh pr view
 2. gh pr merge
-3.
-git checkout main
-git pull                                      # get the merged changes
-git branch -d feature/add-new-section         # delete local branch
-git push origin --delete feature/add-new-section  # delete remote branch
+3. git checkout main
+4. git pull                                      # get the merged changes
+5. git branch -d feature/add-new-section         # delete local branch
+6. git push origin --delete feature/add-new-section  # delete remote branch
 
 # How to make it ignore the virtual environments
 
