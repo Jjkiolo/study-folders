@@ -54,10 +54,16 @@ Personal project
 5. KAL project message instance review
 
 24/04/04
-1. Check the Jenkins code base that runs the docker image
-2. Check the Jenkins server and the app deployment server's status 
-3. Prepare the backend stack
-4. Confirm the literature review topic
-5. Project platform charter
-6. AR/VR asset library import/build
+1. Check the Jenkins code base that runs the docker image (done)
+2. Check the Jenkins server and the app deployment server's status (done) 
+3. Prepare the backend stack (halfway done still need to decide on the very backend)
+4. Confirm the literature review topic (done)
+5. Project platform charter (in progress)
+6. AR/VR asset library import/build (done)
+
+25/04/04
+1. Consultancy frontend refactoring
+2. Backend stack confirm and refactor
+3. AR/VR motion interaction + how to grab objects by clicking needs to be figured out
+4. KAL repo investigation message instance
 
