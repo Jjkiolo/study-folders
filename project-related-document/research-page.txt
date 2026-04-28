@@ -1,0 +1,162 @@
+using System;
+using System.Runtime.Serialization; // For [DataContract] attribute
+using System.Linq; // For data organisation & processing in SQL like way e.g. .Where(), OrderBy(), Select() etc.
+using System.Text.Json; // For JSON serialization and deserialization
+using System.Text.Json.Serialization;
+using System.Text.Encodings.Web; // For HTML encoding and decoding
+using System.IO; // Operating system level file handling
+using System.Runtime.Serialization.Formatters.Binary; // Binary serialization and deserialization, unused in this file
+using System.Collections.Generic; // For generic collections like Dictionary, List, HashSet etc.
+
+namespace XFS4IoT
+{
+    /// <summary>
+    /// A base class of the message object
+    /// </summary>
+    [DataContract]
+    public abstract class MessageBase : ICloneable
+    {
+        /// <summary>
+        /// Default constructor is required for JsonSerializer to create an instance of the class
+        /// </summary>
+        public MessageBase()
+        {
+            Header = null;
+        }
+
+        /// <summary>
+        /// Header of the message for command
+        /// </summary>
+        [DataMember(IsRequired = true, Name = "header")]
+        public MessageHeader Header { get; set; } = null;
+
+        /// <summary>
+        /// Constructor of the base message object
+        /// </summary>
+        /// <param name="RequestId">Request ID</param>
+        /// <param name="Type">Type of the message, Command, Response, Events</param>
+        /// <param name="Timeout">Timeout is only valid for commands.</param>
+        /// <param name="Status">Status is only valid for acknowledge.</param>
+        /// <param name="CompletionCode">CompletionCode is only valid for completions.</param>
+        /// <param name="ErrorDescription">ErrorDescription is only valid for completions.</param>
+        public MessageBase(int? RequestId, MessageHeader.TypeEnum Type, int? Timeout, MessageHeader.StatusEnum? Status, MessageHeader.CompletionCodeEnum? CompletionCode, string ErrorDescription)
+        {
+            string attribNameValue = LookupMessageName(GetType());
+            string version = LookupMessageVersion(GetType());
+            Contracts.IsNotNullOrWhitespace(attribNameValue, $"Invalid command Name attribute is set for the command or response structure in the {nameof(MessageBase)} constructor. { Type }");
+            if (Type != MessageHeader.TypeEnum.Command)
+            {
+                //Timeout is only valid for commands.
+                Timeout = null;
+            }
+            else
+            {
+                Timeout ??= 0; // default
+            }
+            this.Header = new MessageHeader(attribNameValue, RequestId, version, Type, Timeout, Status, CompletionCode, ErrorDescription);
+        }
+
+        /// <summary>
+        /// Internal constructor of the base message object
+        /// For use by JsonSerializer.
+        /// </summary>
+        /// <param name="Header">header contents</param>
+        internal MessageBase(MessageHeader Header)
+        {
+            Header.IsNotNull($"Invalid header received in the {nameof(MessageBase)} constructor.");
+            Contracts.IsNotNullOrWhitespace(Header.Name, $"Invalid command Name attribute is set for the command or response structure in the {nameof(MessageBase)} constructor. { Header.Type }");
+            this.Header = Header;
+        }
+
+        /// <summary>
+        /// Serialise this object in JSON format
+        /// </summary>
+        /// <returns></returns>
+        public string Serialise() => JsonSerializer.Serialize(this, GetType(), JsonOptions);
+
+        /// <summary>
+        /// Serialise this object in JSON format
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString() => Serialise();
+
+        /// <summary>
+        /// Deep copy of the message object
+        /// </summary>
+        /// <returns>Copied message object</returns>
+        public object Clone() => MemberwiseClone();
+
+        /// <summary>
+        /// LookupMessageName
+        /// Look up message name for commands and response with the custom attributes
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        internal static string LookupMessageName(Type type)
+        {
+            var attribNames = from attrib in type.CustomAttributes
+                              where attrib.AttributeType == typeof(CommandAttribute) || 
+                                    attrib.AttributeType == typeof(CompletionAttribute) || 
+                                    attrib.AttributeType == typeof(EventAttribute) ||
+                                    attrib.AttributeType == typeof(AcknowledgeAttribute)
+                              from n in attrib.NamedArguments
+                              where n.MemberName is "Name" && n.TypedValue.ArgumentType == typeof(string)
+                              select n.TypedValue.Value;
+
+            foreach (string s in attribNames)
+                return s;
+        
+            return null;
+        }
+
+        /// <summary>
+        /// LookupMessageVersion
+        /// Look up message version for commands and response with the custom attributes
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        internal static string LookupMessageVersion(Type type)
+        {
+            var attribNames = from attrib in type.CustomAttributes
+                              where attrib.AttributeType == typeof(XFS4VersionAttribute)
+                              from n in attrib.NamedArguments
+                              where n.MemberName is "Version" && n.TypedValue.ArgumentType == typeof(string)
+                              select n.TypedValue.Value;
+
+            foreach (string s in attribNames)
+                return s;
+
+            return null;
+        }
+
+        ///
+        /// 
+        /// TODO: Need use JsonSerializerContext to avoid using reflection
+        ///
+        ///
+        private static readonly JsonSerializerOptions JsonOptions = new JsonSerializerOptions()
+        {
+            Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase), new Base64Converter() },
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
+        };
+
+        internal static Dictionary<string, T> ParseExtendedProperties<T>(Dictionary<string, JsonElement> elements)
+        {
+            return new(elements.Select(c => 
+                        new KeyValuePair<string, T>(c.Key, JsonSerializer.Deserialize<T>(c.Value.GetRawText(), JsonOptions))));
+        }
+
+        internal static Dictionary<string, JsonElement> CreateExtensionData<T>(Dictionary<string, T> elements)
+        {
+            return new(elements.Select(c => 
+                        new KeyValuePair<string, JsonElement>(c.Key, ElementFromObject(c.Value))));
+        }
+
+        internal static JsonElement ElementFromObject<T>(T obj)
+        {
+            var utf8JsonBytes = JsonSerializer.SerializeToUtf8Bytes(obj, JsonOptions);
+            return JsonSerializer.Deserialize<JsonElement>(utf8JsonBytes);
+        }
+    }
+}
