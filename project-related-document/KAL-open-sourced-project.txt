@@ -33,3 +33,4 @@ Framework/Server/CommandQueue.cs, CancelHandler.cs, CancellationSource.cs
 Framework/Server/ServicePublisher.cs
 Framework/Server/IDevice.cs, IPersistentData.cs, IServiceConfiguration.cs
 After this you should be able to describe the flow: client WebSocket → ClientConnection → decoded Command → CommandDispatcher → matching ICommandHandler → Completion + Events back to the client.
+Good
