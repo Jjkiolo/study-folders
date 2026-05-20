@@ -25,6 +25,15 @@ git config --global credential.helper manager
 # How to verify your config at any time
 1. git config --list
 
+# Shell not supported issue
+1. vi ~/.ssh/config
+2. 
+Host github.com
+	Hostname ssh.github.com
+	Port 443
+	User git
+	
+
 # How to create a git repo
 1. Redirect to the inside of a project folder e.g. cd my-project
 2. Create .git folder by writing "git init"
