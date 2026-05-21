@@ -47,7 +47,7 @@ Host github.com
 # How to set a git repo to private
 gh repo edit --visibility private --accept-visibility-change-consequences
 
-# How to clone a git brnach 
+# How to clone a git repo
 1. git clone https://github.com/username/repo-name.git my-custom-name
 or git remote set-url origin git@github.com:username/repository.git
 
