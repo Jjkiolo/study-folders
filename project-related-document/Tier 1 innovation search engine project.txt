@@ -1,0 +1,858 @@
+
+You said:
+What othercompanies work with external suppliers?
+Copilot said:
+Copilot
+There are many companies (both in the UK and globally) that work with external EV motor or powertrain suppliers — in fact, most of the industry depends on this model.
+
+Here’s a clear list by category, so you can see where the real opportunities are.
+
+🚗 1. Traditional OEMs (often use external suppliers)
+Even big car brands don’t make everything themselves — they rely heavily on suppliers.
+
+✅ Examples:
+Nissan (UK – Sunderland plant)
+Uses external partners like JATCO for EV powertrains
+gknautomotive
+Jaguar Land Rover (UK)
+Ford
+Stellantis (Vauxhall, Peugeot, etc.)
+✅ Why they use suppliers:
+
+Faster development
+Lower R&D cost
+Access to specialist innovation
+👉 BUT: you typically reach them via Tier 1 suppliers, not directly.
+
+⚡ 2. EV-first companies (mixed approach)
+These companies often combine:
+
+In-house tech
+External components or subsystems
+✅ Examples:
+Rivian
+Lucid Motors
+Polestar (Volvo group)
+NIO
+👉 Even advanced EV companies still:
+
+Source motors or components externally in some programmes
+Partner for scaling and manufacturing
+🚀 3. Startups & emerging EV companies (very open)
+These are the most supplier-friendly companies.
+
+✅ Examples:
+Arrival (UK)
+Tevva (UK electric trucks)
+REE Automotive
+Bedeo (UK electrification systems)
+✅ Why:
+
+Limited in-house manufacturing
+Need flexibility
+Build around modular systems
+👉 These are prime targets for new motor suppliers
+
+🚚 4. Commercial vehicle manufacturers (HIGH opportunity)
+This sector relies heavily on external suppliers.
+
+✅ Examples:
+Alexander Dennis (buses, UK)
+Wrightbus (UK hydrogen + EV buses)
+Volta Trucks
+Scania / MAN (commercial vehicles)
+✅ Why:
+
+Vehicles are custom-built
+Powertrain requirements vary by customer
+Outsourcing is standard
+👉 This is one of the best entry points into the EV industry
+
+🛠️ 5. Tier 1 suppliers & system integrators (CRITICAL)
+These companies are the gateway to OEMs.
+
+✅ Examples:
+GKN Automotive (UK-based global leader)
+Works with ~90% of global automakers
+hyundai
+Bosch
+Magna
+ZF Group
+✅ What they do:
+
+Integrate motors, inverters, gearboxes
+Supply full EV drive systems
+Work directly with OEMs
+👉 Many automakers don’t buy motors directly — they buy systems from these companies
+
+🏎️ 6. High-performance & niche manufacturers
+✅ Examples:
+Ferrari / Lamborghini (use suppliers like YASA motors)
+amtecs
+Lotus (UK)
+Rimac
+✅ Why:
+
+Need very high-performance motors
+Often partner with specialists instead of building everything
+🔧 7. EV conversion & retrofit companies
+Often overlooked — but very open.
+
+✅ Examples:
+Electrogenic (UK)
+Lunaz (UK luxury EV conversions)
+Swindon Powertrain
+✅ Why:
+
+Fully dependent on external motors
+Need flexible, adaptable solutions
+👉 Great for:
+
+Early traction
+Prototyping use cases
+🌍 Key insight: Most companies ARE supplier-dependent
+The EV supply chain is designed like this:
+
+Motor company → Tier 1 supplier → OEM → Customer
+And the UK is actively expanding this ecosystem:
+
+Strong demand for EV components
+Major growth in powertrain supply chain opportunities
+ehelix
+Rapid increase in EV production demand
+anusedcar
+👉 Meaning:
+
+New suppliers are not only accepted — they’re needed
+
+🎯 Where you should realistically focus
+If you're trying to sell or promote an EV motor:
+
+🔥 BEST targets:
+EV startups
+Commercial vehicle manufacturers
+Tier 1 suppliers
+⚖️ MEDIUM difficulty:
+Performance/niche OEMs
+❗ HARDEST:
+Big OEMs (Hyundai, Tesla, BMW directly)
+✅ Bottom line
+Many companies work with external EV motor suppliers — especially:
+
+✅ Startups and smaller EV companies
+✅ Commercial vehicle and fleet manufacturers
+✅ Tier 1 system integrators (most important)
+✅ Performance and niche vehicle makers
+
+👉 The EV industry is built on partnerships, not isolation.
+
+If you want, I can suggest specific UK companies you could approach right now based on your motor’s strengths (efficiency, cost, performance, etc.).
+
+Sources
+Favicon typeFavicon typeFavicon type
+
+
+
+
+
+
+
+You said:
+And what tier 1 suppliers use to browse the options for the development businesses?
+Copilot said:
+Copilot
+Great question — this is exactly where real business traction happens.
+
+Tier 1 suppliers (like GKN, Bosch, Magna, etc.) don’t just “browse randomly” for EV motor or powertrain partners. They use structured procurement, scouting, and validation systems to find and evaluate development companies.
+
+Here’s how it actually works in practice:
+
+🔍 1. Supplier discovery channels (how they FIND companies)
+✅ A. Existing supplier networks (most important)
+Tier 1s prefer:
+Known suppliers
+Proven partners
+Referrals from OEMs or industry contacts
+👉 This means:
+
+Warm introductions are far more powerful than cold outreach
+
+✅ B. Industry clusters & programmes (UK-specific)
+They actively look through:
+
+Advanced Propulsion Centre (APC UK)
+Innovate UK programmes
+Catapult centres (e.g. WMG, High Value Manufacturing Catapult)
+👉 These organisations:
+
+Showcase new EV tech companies
+Fund collaborative R&D
+Connect startups with Tier 1s
+✅ C. Supply chain directories & databases
+Examples:
+
+SMMT (Society of Motor Manufacturers & Traders) EV directory
+Internal supplier databases
+Engineering partner platforms
+👉 These act like:
+
+“B2B marketplaces for automotive innovation”
+
+✅ D. Trade shows and industry events
+This is a major channel.
+
+Examples:
+
+Fully Charged Live (UK)
+Cenex Expo (very important for EV tech in the UK)
+Battery Show Europe
+👉 Tier 1s attend to:
+
+Discover new tech
+See live demos
+Meet founders/engineers
+✅ E. Hackathons, accelerators, and innovation programmes
+Exactly what you were asking about.
+
+They use:
+
+Corporate accelerator programmes
+University partnerships
+Innovation challenges
+👉 This is where your hackathon idea fits:
+
+It becomes a pipeline into Tier 1 visibility
+
+📊 2. How they FILTER potential suppliers
+Tier 1 suppliers don’t just pick ideas — they evaluate based on strict criteria:
+
+✅ Technical fit
+Does your motor outperform existing solutions?
+Efficiency, power density, weight, cost
+✅ Integration readiness
+Can it plug into existing platforms?
+Compatible with their systems?
+✅ Manufacturing scalability
+Can you produce at volume?
+Or can you transition to production partners?
+✅ Reliability & validation
+Testing data
+Safety and durability
+👉 If you lack these → you won’t move forward
+
+🤝 3. How they ENGAGE with development companies
+Once they find something interesting:
+
+Stage 1: Technical discussion
+NDA signed
+Deep engineering review
+Stage 2: Proof of concept
+Small project or prototype integration
+Bench testing
+Stage 3: Co-development
+Joint engineering work
+Optimising for an OEM programme
+Stage 4: Supply or partnership deal
+You become part of their supply chain
+🧠 4. What they LOOK for proactively
+Tier 1s are not just browsing — they actively hunt for:
+
+Breakthrough efficiency gains (e.g. better motor design)
+Cost reductions
+Smaller/lighter systems
+Better thermal management
+Unique IP (this is huge)
+👉 If your product is “similar” → low interest
+👉 If it’s clearly better → high interest
+
+🚀 5. The most effective ways to get noticed
+If you're an EV motor company, these are the highest-impact strategies:
+
+✅ 1. Partner with R&D programmes
+Join Innovate UK or APC projects
+Collaborate with universities
+👉 This gives credibility + exposure
+
+✅ 2. Work with a Tier 1 indirectly first
+Collaborate on a small subsystem
+Demonstrate integration capability
+✅ 3. Demonstrate real-world use cases
+Pilot projects
+Prototype vehicles
+Test results
+👉 Tier 1s want proof, not concepts
+
+✅ 4. Attend and demonstrate at industry events
+Live demos matter more than slides
+Engineers evaluate hands-on
+✅ 5. Build relationships (this is critical)
+Long sales cycles (1–3+ years)
+Trust-based industry
+👉 This is NOT a quick-sales environment
+
+⚠️ What DOESN’T work
+Avoid these common mistakes:
+
+❌ Cold emailing without proof
+❌ Pitching only “ideas” without working tech
+❌ Targeting OEMs directly too early
+❌ Generic marketing with no technical depth
+
+🧩 The key insight (most important)
+Tier 1 suppliers do NOT think:
+
+“Let’s browse for motor suppliers today”
+
+They think:
+
+“We need a solution for this OEM programme — who can deliver it?”
+
+👉 Then they search through:
+
+Existing partners
+Trusted networks
+Proven innovation channels
+✅ Bottom line
+Tier 1 suppliers “browse” for EV motor companies through:
+
+Industry networks and referrals
+Government-backed innovation programmes
+Trade shows and technical events
+Supply chain databases
+Targeted scouting (not random search)
+💡 Strategic takeaway for you
+If you want traction:
+
+Don’t try to “be found” casually
+👉 Place yourself in the channels they already trust
+
+Best entry routes:
+
+Innovate UK / APC projects
+EV industry events (Cenex is especially important)
+Partnerships with smaller OEMs or startups
+Demonstrable working prototypes
+If you want, I can map a step-by-step path to get your EV motor in front of a Tier 1 supplier within 6–12 months.
+
+
+
+
+
+
+
+
+You said:
+Is there any application system available in the uk connecting tier 1 manufacturers and suppliers?
+Copilot said:
+Copilot
+Yes — there are several real “application systems” and platforms in the UK that connect suppliers (like an EV motor company) with Tier 1 suppliers and OEMs.
+
+But it’s important to understand:
+
+It’s not just one platform — it’s a combination of directories, portals, and innovation networks.
+
+Here are the main ones you should know (these are exactly what industry uses):
+
+🧩 1. SMMT Automotive Supplier Finder (ASF) — ⭐ MOST IMPORTANT
+👉 What it is:
+The UK’s largest automotive supplier database
+Used by OEMs and Tier 1 suppliers to find partners
+✅ What you can do:
+Create a company profile
+Get discovered by buyers
+Receive RFIs (Request for Information) and RFQs (Request for Quotation)
+📊 Scale:
+10,000+ companies listed
+Covers EV tech including motors, batteries, powertrain systems
+smmt
+✅ Why it matters:
+This is effectively the closest thing to a “central application platform” in the UK automotive sector
+👉 Think of it like:
+
+“LinkedIn + marketplace for automotive suppliers”
+
+🌐 2. OEM / Tier 1 Supplier Portals (direct application systems)
+Most large companies have their own supplier registration portals.
+
+✅ Examples:
+Jaguar Land Rover Supplier Portal
+Nissan Supplier Portal
+Ford Supplier Portal
+Toyota Supplier Registration
+These are accessed through systems like Covisint.
+
+What they do:
+Let you register as a potential supplier
+Store your company for future sourcing needs
+Provide access to documents, tenders, and requirements
+👉 Example:
+
+Toyota UK has a supplier registration system where companies submit details and get considered for future sourcing
+toyotauk
+⚠️ Important reality:
+Registering does NOT guarantee work
+It just puts you in their approved database
+🔗 3. Innovate UK Business Connect — ⭐ KEY FOR INNOVATION
+👉 What it is:
+A national innovation platform connecting:
+
+Businesses
+Tier 1 suppliers
+OEMs
+Researchers
+✅ What you can do:
+Apply to industry challenges
+Join collaborative projects
+Get matched with large manufacturers
+📌 It explicitly helps link companies to:
+
+“industry stakeholders actively seeking innovative solutions”
+ktninnovationexchange
+
+🔥 High-value feature:
+Open innovation challenges
+Example:
+Nissan + partners post problems
+You apply with your solution
+Funding + partnership opportunities available
+iuk-business-connect
+👉 This is one of the best modern routes into Tier 1 supply chains
+
+🏭 4. Automotive Exchange / Covisint (global system)
+👉 What it is:
+A secure digital platform connecting:
+
+OEMs
+Tier 1 suppliers
+Supply chain partners
+Used by companies like:
+
+Ford
+GM
+Nissan
+Jaguar Land Rover
+✅ What it does:
+Centralised supplier access
+Data sharing
+Collaboration tools
+👉 It acts as:
+
+The “backend infrastructure” of the automotive supply chain
+covisint
+
+🤝 5. “Meet the Buyer” programmes (semi-formal system)
+Run by SMMT and others:
+
+Structured matchmaking events
+OEMs & Tier 1 suppliers meet suppliers directly
+📊 Example:
+
+Hundreds of business introductions facilitated in recent years
+smmt
+👉 This is like a live application system + networking combined
+
+📢 6. Government / procurement platforms (limited relevance)
+Example:
+UK “Find a Tender” system
+✅ Purpose:
+
+Public sector procurement
+❌ Not ideal for:
+
+EV motors or automotive supply chains
+👉 More useful if working with government or infrastructure, not OEMs
+
+🧠 How the system REALLY works (important insight)
+There is no single pipeline like:
+
+“Apply → get contract”
+
+Instead it works like:
+
+1. Get visible (ASF, Innovate UK, events)
+2. Register (supplier portals)
+3. Engage (projects, introductions)
+4. Validate (technical testing)
+5. Partner (Tier 1 / OEM integration)
+🎯 Best combination to use (practical strategy)
+If you’re building an EV motor business, the strongest setup is:
+
+✅ Step 1: Register on SMMT ASF
+→ Get discovered by buyers
+
+✅ Step 2: Join Innovate UK / Business Connect
+→ Access real challenges from Tier 1s
+
+✅ Step 3: Register on OEM portals (JLR, Nissan, etc.)
+→ Enter their supplier database
+
+✅ Step 4: Attend “Meet the Buyer” / Cenex events
+→ Build relationships (this is critical)
+
+✅ Bottom line
+Yes — the UK does have systems connecting suppliers to Tier 1 manufacturers:
+
+Core platforms:
+✅ SMMT Automotive Supplier Finder (ASF) → main directory & sourcing tool
+✅ Innovate UK Business Connect → innovation + collaboration platform
+✅ OEM supplier portals → formal registration systems
+✅ Covisint / Automotive Exchange → global supply chain infrastructure
+💡 Final insight
+The UK doesn’t rely on one “application system”
+👉 It uses a hybrid ecosystem of databases + innovation programmes + relationships
+
+If you want, I can build you a step-by-step plan to get your EV motor listed and approached by Tier 1 suppliers within a few months.
+
+Sources
+Favicon typeFavicon typeFavicon type
+
+
+
+
+
+
+
+You said:
+It still takes a large amount of time because the services that they need to use are spreaded everywhere right?
+Copilot said:
+Copilot
+Yes — you’re absolutely right, and this is one of the biggest practical problems in the UK (and global) EV supply chain.
+
+👉 The system is fragmented, and that does slow everything down significantly.
+
+Let’s break it down clearly:
+
+🧠 Why it takes so long
+1. ❗ Information is spread across multiple systems
+There isn’t one place where Tier 1s and suppliers connect.
+
+Instead, you have:
+
+SMMT directory
+Innovate UK platforms
+Individual OEM portals
+Events and networking
+Private supplier databases
+👉 So to fully participate, you need to:
+
+Register in multiple places
+Maintain multiple profiles
+Engage in different programs
+2. 🔒 Tier 1s rely on closed networks
+Most Tier 1 suppliers:
+
+Prefer trusted, existing partners
+Don’t openly “browse” like a marketplace
+Use internal or invite-only systems
+👉 This creates:
+
+A high barrier to entry for new companies
+
+3. 🐢 Automotive industry moves very slowly
+Even if you get noticed:
+
+Validation → months
+Testing → months
+Integration → years
+👉 Typical timeline:
+
+1–3 years to become a real supplier
+
+4. ⚙️ Heavy validation requirements
+Before working with you, they need:
+
+Technical validation
+Safety certification
+Reliability testing
+👉 This is not like software — it’s hardware-critical
+
+5. 🤝 Relationship-driven industry
+Unlike SaaS:
+
+Deals happen through:
+Trust
+Referrals
+Long-term engagement
+👉 You can’t just “apply and win”
+
+⚠️ Result: Fragmentation = inefficiency
+You’re correct that the system is:
+
+❌ Decentralised
+❌ Slow to navigate
+❌ Hard for new entrants
+
+🚀 But here’s the important insight
+👉 This is actually an opportunity
+
+Because:
+
+Tier 1s do need innovation
+Demand for EV components is growing rapidly
+They are actively looking — just not in a simple way
+💡 How successful companies deal with this
+Instead of trying to use every system, they:
+
+✅ Focus on 2–3 key entry points
+For example:
+
+Innovate UK (for exposure + credibility)
+One strong industry event (like Cenex)
+One Tier 1 relationship
+👉 Not everything at once
+
+✅ Use “pull” instead of “push”
+Instead of chasing companies everywhere:
+
+Build something strong (prototype, data, demo)
+Show clear advantage
+👉 Then:
+
+Tier 1s come to you through networks
+
+✅ Shortcut via partnerships
+Instead of:
+
+Trying to reach OEMs directly
+
+Do:
+
+Work with:
+Startups
+Smaller manufacturers
+Universities
+👉 This creates:
+
+Proof
+Credibility
+Case studies
+✅ Leverage programmes that bundle everything
+This is the closest thing to a “central system”:
+
+Innovate UK accelerators
+APC projects
+Cluster programmes (e.g. Nissan ecosystem)
+👉 These:
+
+Connect you directly to Tier 1s
+Provide funding
+Reduce fragmentation
+🧩 How to think about it (key mindset shift)
+Instead of:
+
+“I need one platform to apply everywhere”
+
+Think:
+
+“I need to enter the ecosystem through the most influential nodes”
+
+Those nodes are:
+
+Innovation programmes
+Tier 1 relationships
+High-visibility events
+✅ Bottom line
+Yes — you’re 100% correct:
+
+👉 The UK system is fragmented, and that slows down traction
+
+But:
+
+The winning strategy is NOT to use everything
+👉 It’s to focus on high-impact entry points
+
+🔑 Final takeaway
+❌ There is no single unified application system
+✅ The system is intentionally relationship-driven
+🚀 The fastest path is:
+Innovate UK / APC
+Industry exposure (events)
+Direct technical proof
+If you want, I can design a simplified “fast-track route” (like a 6-month roadmap) to get your EV motor in front of real Tier 1 decision makers without wasting time across all platforms.
+
+
+
+
+
+
+
+
+You said:
+the industry needs a platform where everyone can have a look at fresh innovative ideas at a glance rather than browsing all over the place right?
+Copilot said:
+Copilot
+Yes — you’ve identified a real gap in the industry, and many people in automotive/EV innovation would agree with you.
+
+👉 In simple terms:
+
+✅ Yes — the industry would benefit from a unified platform to discover innovation quickly
+❌ But it doesn’t fully exist yet (at least not in the way you're describing)
+
+🧠 Why your idea makes sense
+1. The current system is fragmented
+As we discussed, today’s landscape is split across:
+
+Supplier directories (SMMT)
+Innovation platforms (Innovate UK)
+OEM portals
+Events and private networks
+👉 Even industry organisations admit that:
+
+The supply chain is broad and evolving
+Companies need ways to “identify suppliers” across many categories
+tecmotors
+→ But no single real-time, innovation-focused discovery layer exists.
+
+2. Tier 1s struggle with visibility too
+It’s not just suppliers struggling — Tier 1s and OEMs:
+
+Don’t always know what new tech exists
+Rely on known networks
+Risk missing emerging innovation
+👉 That’s why programmes like Innovate UK and clusters exist:
+
+To surface new ideas and technologies to industry players
+rivercitiesrunningboard
+3. Innovation is accelerating faster than the system
+Especially in EV:
+
+New startups, prototypes, and technologies appear quickly
+EV component demand is rising sharply
+👉 But discovery mechanisms are still:
+
+Slow
+Manual
+Relationship-driven
+🚀 What you're describing (in practical terms)
+You’re essentially proposing a platform like:
+
+“A real-time innovation marketplace for EV / automotive supply chains”
+
+Where users can:
+
+Browse new technologies quickly
+Compare solutions
+See validated prototypes
+Connect directly with suppliers
+🔍 Why this doesn’t already fully exist
+1. Trust & risk issues
+Automotive companies require:
+
+Proven reliability
+Certification
+Safety validation
+👉 They can’t just “pick from a marketplace” like software
+
+2. Confidentiality (huge factor)
+Many innovations are:
+Under NDA
+IP-sensitive
+Not publicly shareable
+👉 This limits open visibility
+
+3. Long sales cycles
+Automotive deals take years
+Relationships matter more than discovery speed
+👉 So the industry hasn’t prioritised “fast browsing”
+
+4. Legacy systems & culture
+The industry is:
+Conservative
+Process-heavy
+Not digitally unified
+⚡ But parts of your idea DO already exist (just fragmented)
+Your concept is partially covered by different tools:
+
+Function	Existing tool
+Supplier directory	SMMT ASF
+Innovation discovery	Innovate UK
+Supplier onboarding	OEM portals
+Networking	Events
+👉 The problem is:
+
+They are not integrated into one seamless experience
+
+💡 Why your idea is actually strong
+Because it solves a real pain point:
+
+✅ For suppliers
+Easier visibility
+Faster access to buyers
+Less time navigating systems
+✅ For Tier 1s / OEMs
+Faster innovation discovery
+Less reliance on known networks
+Access to emerging tech
+✅ For the industry
+Faster adoption of innovation
+More efficient supply chain formation
+🎯 What a successful version of this platform would need
+If someone built it properly, it would include:
+
+1. 🔍 Searchable innovation library
+EV motors, batteries, powertrain, etc.
+Tagged by:
+Performance
+Cost
+Application
+2. ✅ Validation layer (critical)
+Verified data
+Testing results
+TRL (Technology Readiness Level) scores
+👉 This solves trust issues
+
+3. 🤝 Built-in matchmaking
+Match suppliers with:
+Tier 1 needs
+OEM projects
+4. 🔒 Controlled visibility
+Public vs private info
+NDA-based access for sensitive tech
+5. 📊 Real-world use cases
+Case studies
+Prototype demos
+Integration examples
+⚠️ Why it’s hard (but valuable)
+Challenges:
+
+Requires industry-wide trust
+Needs adoption from big players
+Must handle confidential data
+Needs validation credibility
+👉 But if done right:
+
+It becomes extremely valuable infrastructure
+
+🧠 Big insight
+What you're describing is actually:
+
+The “missing layer” between innovation and procurement
+
+Right now:
+
+Innovation exists ✅
+Procurement exists ✅
+But discovery between them is broken ❌
+✅ Bottom line
+👉 Yes — the industry would benefit massively from a platform where:
+
+New technologies are visible
+Innovation is easy to compare
+Companies don’t have to “browse everywhere”
+But:
+
+The current system is fragmented due to trust, complexity, and legacy processes
+Existing tools only solve parts of the problem
+💡 Final thought (important)
+This is not just an observation — it’s a potential business opportunity.
+
+Because you're essentially asking:
+
+“Why isn’t there a central platform for EV supply chain innovation?”
+
+👉 That’s exactly the kind of question that leads to:
+
+Startups
+Platforms
+Industry disruption
+If you want, I can help you turn this idea into a concrete platform concept (features, users, business model, and feasibility) — it’s actually a very strong direction.
