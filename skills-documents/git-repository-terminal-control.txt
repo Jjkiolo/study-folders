@@ -74,3 +74,32 @@ or git remote set-url origin git@github.com:username/repository.git
 
 # How to change 
 git checkout -b feature/add-new-section
+
+# How to make pull requests without using gh
+1. Set up the organisation fork availability to on
+2. Check the tick box next to allowing fork on the repository
+3. Create a fork on a developer's account
+4. Clone the fork
+5. Add upstream - git remote add upstream https://github.com/AdvancedElectricMachinesIT/aem-travel-app-admin-page-frontend.git
+6. git remote -v
+7. git checkout -b feature/my-feature - this helps separate the work based on the role of each update
+8. push it to the main repo on the main page
+8.1.same as other branch push
+git add .
+git commit -m "message" - example
+git push origin feature/my-feature
+9. git fetch upstream - updates the fork with new updates on the main repo
+10. git checkout main
+11. git merge upstream/main
+12. git push origin main
+
+
+
+
+
+
+
+
+
+
+
