@@ -1,0 +1,7 @@
+# How to find the structure of a repository
+tree <PATH>
+
+# How to find file paths in a repo
+find src -type f
+
+
